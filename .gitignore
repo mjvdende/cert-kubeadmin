@@ -1,0 +1,33 @@
+# Credentials / kubeconfigs — never commit
+*.key
+*.pem
+*.crt
+*.csr
+*.p12
+*.pfx
+*.kubeconfig
+kubeconfig*
+admin.conf
+.kube/
+join-command*
+*.token
+
+# Env / secrets
+.env
+.env.*
+
+# Infra state
+.vagrant/
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# etcd backups
+*.db
+snapshot*.db
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
